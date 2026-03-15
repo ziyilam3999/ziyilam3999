@@ -6,13 +6,13 @@ By day, I work in financial services. Outside of that, I build tools and apps th
 
 ## What I'm Building
 
-🧠 **Hive Mind** — An AI orchestrator that transforms PRDs into working code through multi-stage agent pipelines with human-in-the-loop checkpoints. Built with TypeScript and Claude API.
+🧠 **[Hive Mind](https://github.com/ziyilam3999/hive-mind)** — An AI orchestrator that transforms PRDs into working code through multi-stage agent pipelines with human-in-the-loop checkpoints. Built with TypeScript and Claude API.
 
-🔍 **AI File Search → Monday Bot** — Started as a Python-based semantic document search (FAISS + local LLM), now evolving into a Slack-based RAG knowledge assistant for teams, rewritten in TypeScript.
+🔍 **[AI File Search](https://github.com/ziyilam3999/ai-file-search)** — Zero-config semantic document search with AI-powered Q&A. Uses FAISS for vector search and a local LLM for answers with citations.
 
-📝 **BRUST Creator** — AI-assisted business rule and user story generator built with Next.js, React 19, and Claude API.
+📝 **[BRUST Creator](https://github.com/ziyilam3999/ai-BRUST-creator)** — AI-assisted business rule and user story generator built with Next.js, React 19, and Claude API.
 
-📸 **Pillar Snapper** — A Flutter app that uses on-device OCR and custom TFLite models to automatically detect and parse parking pillar codes.
+📸 **Pillar Snapper** — A Flutter app that uses on-device OCR and custom TFLite models to automatically detect and parse parking pillar codes. *(Private — pre-launch)*
 
 ## Tech Stack
 
