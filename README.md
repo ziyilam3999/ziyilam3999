@@ -16,13 +16,26 @@ By day, I work in financial services. Outside of that, I build tools and apps th
 
 ## Tech Stack
 
-```
-Languages      TypeScript · Python · Dart
-Frontend       React · Next.js · Flutter
-AI / ML        Claude API · RAG Pipelines · FAISS · TensorFlow Lite · Google ML Kit
-Backend        Node.js · Flask · Firebase · SQLite
-Infra          Oracle Cloud · GCP
-```
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API-D97706?style=flat)
+![FAISS](https://img.shields.io/badge/FAISS-4285F4?style=flat)
+![TensorFlow Lite](https://img.shields.io/badge/TFLite-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ziyilam3999&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ziyilam3999&layout=compact&hide_border=true" alt="Top Languages" />
+</p>
 
 ## Let's Connect
 
