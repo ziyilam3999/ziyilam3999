@@ -22,6 +22,9 @@ Outside of work, I build things with AI. Agent orchestrators, semantic search, w
 
 **[Hive Mind](https://github.com/ziyilam3999/hive-mind)** is probably the most ambitious thing here. You give it a product requirements doc and it coordinates multiple AI agents to actually write the code, stage by stage, with checkpoints where you review what it's doing. TypeScript + Claude API. Still evolving.
 
+> *"Hive Mind has a checkpoint and recovery system I'd expect from a production job scheduler, not a side project. The wave executor with file-level conflict detection, budget enforcement, and a learning system that graduates insights across runs — this is thoughtful systems engineering."*
+> — Claude, after reviewing the codebase
+
 **[AI File Search](https://github.com/ziyilam3999/ai-file-search)** lets you point it at a folder of documents and ask questions. It uses FAISS for vector search and a local LLM to generate answers with source citations. No config needed.
 
 **[BRUST Creator](https://github.com/ziyilam3999/ai-BRUST-creator)** generates business rules and user stories from plain-language input. I got tired of writing these by hand for every sprint. Next.js, React 19, Claude API.
