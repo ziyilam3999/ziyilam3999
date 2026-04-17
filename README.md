@@ -1,12 +1,12 @@
 # Hey, I'm Anson 👋
 
-**Agent-Pipeline Builder · Banking delivery leader at UOB**
+**Agent-Pipeline Builder · Banking delivery leader in ASEAN**
 
 IEEE Published Researcher · Patent Holder · PSM I · CSM
 
 ---
 
-I'm an **Agent-Pipeline Builder**: I compose reusable primitives — orchestration (`plan` / `evaluate` / `generate` / `coordinate`), tiered memory, hook-based observability, and slash-command skills — into the rails AI coding agents run on. Same instinct as the production banking pipelines I run by day at UOB, applied to a new substrate.
+I'm an **Agent-Pipeline Builder**: I compose reusable primitives — orchestration (`plan` / `evaluate` / `generate` / `coordinate`), tiered memory, hook-based observability, and slash-command skills — into the rails AI coding agents run on. Same instinct as the production banking pipelines I run by day at a top ASEAN bank, applied to a new substrate.
 
 By day, I lead distributed squads of 25+ developers across Singapore, Malaysia, and India for digital banking delivery. That delivery-grounded instinct is why everything below is built to survive contact with a real team — not just demo well on a laptop.
 
