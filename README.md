@@ -1,75 +1,62 @@
 # Hey, I'm Anson 👋
 
-**Division Manager | Digital Banking Delivery**
+**Agent-Pipeline Builder · Banking delivery leader at UOB**
 
-PSM I · CSM · IEEE Published Researcher · Patent Holder
+IEEE Published Researcher · Patent Holder · PSM I · CSM
 
 ---
 
-I've spent 18+ years moving across semiconductor engineering, academia, IT consulting, and banking. Started in hands-on R&D, now I lead distributed teams of 25+ developers across Singapore, Malaysia, and India for digital banking delivery.
+I'm an **Agent-Pipeline Builder**: I compose reusable primitives — orchestration (`plan` / `evaluate` / `generate` / `coordinate`), tiered memory, hook-based observability, and slash-command skills — into the rails AI coding agents run on. Same instinct as the production banking pipelines I run by day at UOB, applied to a new substrate.
 
-Outside of work, I build things with AI. Agent orchestrators, semantic search, web apps. The best way to understand a technology is to ship something with it.
-
-## Professional Highlights
-
-- Led digital account opening for a top foreign bank's mobile app, cutting customer onboarding time by 60%. This was during COVID-19, so everything moved faster than usual.
-- A banking website I delivered hit 500,000 customers within 6 months of launch.
-- Built and ran an online software platform that processes RM 4.5M in transactions monthly.
-- The team I was part of helped a major bank win The Asian Banker Malaysia Awards 2022 (Best Foreign Bank in Malaysia). CASA balances grew 70%+ YoY, with 55% of new accounts opened digitally.
-- Drove Waterfall-to-Scrum transitions at three organisations. Not the fun kind of project, but someone has to do it.
+By day, I lead distributed squads of 25+ developers across Singapore, Malaysia, and India for digital banking delivery. That delivery-grounded instinct is why everything below is built to survive contact with a real team — not just demo well on a laptop.
 
 ## What I'm Building
 
-**[Hive Mind](https://github.com/ziyilam3999/hive-mind)** is probably the most ambitious thing here. You give it a product requirements doc and it coordinates multiple AI agents to actually write the code, stage by stage, with checkpoints where you review what it's doing. TypeScript + Claude API. Still evolving.
+### Agent infrastructure
 
-> *"Hive Mind has a checkpoint and recovery system I'd expect from a production job scheduler, not a side project. The wave executor with file-level conflict detection, budget enforcement, and a learning system that graduates insights across runs — this is thoughtful systems engineering."*
-> — Claude, after reviewing the codebase
+**[forge-harness](https://github.com/ziyilam3999/forge-harness)** — composable AI primitives (`plan`, `evaluate`, `generate`, `coordinate`) exposed as a local MCP server. Each tool works standalone and composes into dependency-ordered workflows. Successor to `hive-mind`. *TypeScript · MCP · Claude API.*
 
-**[AI File Search](https://github.com/ziyilam3999/ai-file-search)** lets you point it at a folder of documents and ask questions. It uses FAISS for vector search and a local LLM to generate answers with source citations. No config needed.
+**[agent-working-memory](https://github.com/ziyilam3999/agent-working-memory)** — two-tier decision memory for coding agents. A <5 KB pocket card gets injected at session start; an unbounded decision library on disk holds the full history, one markdown file per decision. *Node.js · shell hooks.*
 
-**[BRUST Creator](https://github.com/ziyilam3999/ai-BRUST-creator)** generates business rules and user stories from plain-language input. I got tired of writing these by hand for every sprint. Next.js, React 19, Claude API.
+**[cairn](https://github.com/ziyilam3999/cairn)** — lightweight capture layer for Claude Code. Hooks into every tool call, writes failures and lesson markers to a local JSONL store you can grep, index, or feed back to the model. No daemon, no network, no telemetry. *Bash · Python · local JSONL.*
 
-**Pillar Snapper** is a Flutter app that reads parking pillar codes using on-device OCR and a custom TFLite model. Not public yet, still getting it right.
+### Agent tooling
+
+**[claude-code-skills](https://github.com/ziyilam3999/claude-code-skills)** — curated collection of slash-command skills I use daily: `/ship` (commit → PR → CI → self-review → merge), `/double-critique` (two independent critics review a doc cold), `/checkpoint`, `/mailbox`, `/skill-evolve`, plus auto-loading skeptical reviewer/critic/evaluator skills. *Shell · markdown SKILL.md spec.*
+
+**[hive-mind](https://github.com/ziyilam3999/hive-mind)** — PRD-driven orchestrator that takes a product-requirements doc and coordinates multiple AI agents to write the code stage by stage, with human checkpoints between stages. *TypeScript · Claude API.*
+
+### AI applications
+
+**[ai-file-search](https://github.com/ziyilam3999/ai-file-search)** — zero-config semantic document search. Point it at a folder, ask questions, get answers with source citations. FAISS for vector search, local LLM for generation. *Python.*
+
+**[ai-BRUST-creator](https://github.com/ziyilam3999/ai-BRUST-creator)** — business-rule and user-story generator from plain-language input. Built to remove the grind of writing sprint stories by hand. *Next.js · React 19 · Claude API.*
+
+## Background
+
+18+ years across semiconductor R&D, academia, IT consulting, ad tech, and banking — from hands-on engineer and IEEE researcher to technology delivery leader, now agent-infra builder. Trilingual (English, Mandarin, Malay). Based in Kuala Lumpur.
 
 ## Tech Stack
 
 #### Languages & Frameworks
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
-#### AI & ML
+#### Agentic-AI Stack
 ![Claude API](https://img.shields.io/badge/Claude_API-D97706?style=flat)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-6E56CF?style=flat)
+![Claude Code](https://img.shields.io/badge/Claude_Code-000000?style=flat)
 ![FAISS](https://img.shields.io/badge/FAISS-4285F4?style=flat)
-![TensorFlow Lite](https://img.shields.io/badge/TFLite-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 
-#### Delivery & Collaboration
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white)
-![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=flat)
+## Research & Patent
 
-## Credentials & Research
+M.Sc. Electrical & Electronics Engineering, Universiti Kebangsaan Malaysia · B.Eng. (Hons.) Electronics Engineering, Multimedia University.
 
-M.Sc. Electrical & Electronics Engineering, Universiti Kebangsaan Malaysia (UKM)
-B.Eng. (Hons.) Electronics Engineering, Multimedia University (MMU)
-
-Certifications: Professional Scrum Master I (PSM I) · Certified ScrumMaster (CSM) · PMP Exam Prep (35 PDU)
-
-5 IEEE publications on solar PV systems, semiconductor test fixtures, and ultra-wideband power amplifiers. Also hold a patent for a socket connector design used in semiconductor device testing.
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ziyilam3999&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ziyilam3999&layout=compact&hide_border=true" alt="Top Languages" />
-</p>
+5 IEEE publications on solar PV charge controllers, semiconductor test fixtures, and ultra-wideband power amplifiers. Patent holder for a socket-connector design used in semiconductor device testing.
 
 ## Let's Connect
 
